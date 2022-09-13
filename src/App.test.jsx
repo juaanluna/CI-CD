@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
@@ -9,6 +11,8 @@ test('renders title', () => {
 
 test('renders description', () => {
   render(<App />);
-  const linkElement = screen.getByText(/Esse projeto tem como objetivo a criação de um CICD/i);
+  const linkElement = screen.getByText(
+    /Esse projeto tem como objetivo a criação de um CICD/i,
+  );
   expect(linkElement).toBeInTheDocument();
 });
