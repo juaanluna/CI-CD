@@ -8,7 +8,7 @@ function App() {
         teste CICD
       </h1>
       <h5>
-        Esse projeto tem como objetivo a criaçaão de um CICD
+        Esse projeto tem como objetivo a criação de um CICD
       </h5>
     </div>
   );
